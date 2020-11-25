@@ -10,10 +10,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _listings
+  path: collections/_listings
   label: Listings
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

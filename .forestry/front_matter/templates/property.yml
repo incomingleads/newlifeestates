@@ -1,0 +1,43 @@
+---
+label: property
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: image_gallery
+  name: images
+  label: images
+- type: text
+  name: price
+  label: price
+- type: text
+  name: status
+  label: status
+- type: text
+  name: property-name
+  label: property-name
+- type: text
+  name: city
+  label: city
+- type: text
+  name: address
+  label: address
+- type: text
+  name: property-type
+  label: property-type
+- type: text
+  name: surface-area
+  label: surface-area
+- type: text
+  name: building-area
+  label: building-area
+- type: text
+  name: numbers-of-bedroom
+  label: numbers-of-bedroom
+- type: text
+  name: numbers-of-bathroom
+  label: numbers-of-bathroom

@@ -1,0 +1,19 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
+collections_dir: collections
+
+# Social Media Links
+fb-link: https://facebook.com/
+tw-link: https://twitter.com/
+yt-link: https://youtube.com/
+pt-link: https://pinterest.com/
+ig-link: https://instagram.com/

@@ -1,6 +1,9 @@
 ---
 layout: page
 title: About Us
+images:
+- "/uploads/about.jpg"
+- "/uploads/hildo.png"
 permalink: /about/
 ---
 
@@ -31,14 +34,14 @@ permalink: /about/
     Bulgarian Director Demitri Ansaleeno <br>
   </div>
   <div class="col-12 col-lg-8 mb-3">
-    <img src="/uploads/apartment-2.jpg" alt="">
+    <img src="/uploads/about.jpg" alt="">
   </div>
 </div>
 
 <div class="row my-3">
   <div class="col-12 col-lg-4">
     <div class="card">
-      <img src="/uploads/apartment-1.jpg" class="card-img-top" alt="">
+      <img src="{{ page.images[1] }}" class="card-img-top img-fluid" alt="">
       <div class="card-img-overlay--m">
         <div class="d-flex">
           <h5>Hildo Kat (Director)</h5>

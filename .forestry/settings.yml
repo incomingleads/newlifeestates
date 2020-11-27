@@ -4,12 +4,17 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: index.md
+  label: Home
+  match: "**/*"
+  read_only: false
 - type: directory
   path: pages
   label: Pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: collections/_blog
   label: Blog

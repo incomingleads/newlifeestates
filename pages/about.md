@@ -4,6 +4,8 @@ title: About Us
 images:
 - "/uploads/about.jpg"
 - "/uploads/hildo.png"
+- "/uploads/evelyn.webp"
+- "/uploads/martin.webp"
 permalink: /about/
 ---
 
@@ -54,7 +56,7 @@ permalink: /about/
   </div>
   <div class="col-12 col-lg-4">
     <div class="card">
-      <img src="/uploads/apartment-1.jpg" class="card-img-top" alt="">
+      <img src="{{ page.images[2] }}" class="card-img-top" alt="">
       <div class="card-img-overlay--m">
         <div class="d-flex">
           <h5>Evelyn Harris</h5>
@@ -67,7 +69,7 @@ permalink: /about/
   </div>
   <div class="col-12 col-lg-4">
     <div class="card">
-      <img src="/uploads/apartment-1.jpg" class="card-img-top" alt="">
+      <img src="{{ page.images[3] }}" class="card-img-top" alt="">
       <div class="card-img-overlay--m">
         <div class="d-flex">
           <h5>Martin Ashworth</h5>

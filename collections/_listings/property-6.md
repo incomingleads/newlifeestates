@@ -2,9 +2,10 @@
 layout: property
 title: Apartment 6
 images:
+- "/uploads/header-1.webp"
 - "/uploads/apartment-4.jpg"
 - "/uploads/apartment-6.jpg"
-price: 1.500.000.000
+price: '1.000000'
 status: Sale
 property-name: Apartment 6
 city: New York City
